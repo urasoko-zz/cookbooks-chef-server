@@ -1,0 +1,6 @@
+name             'chef-server'
+maintainer       'Hiroyuki Urasoko'
+maintainer_email 'h-urasoko@creationline.com'
+description      'Installs/Configures chef-server'
+long_description 'Installs/Configures chef-server'
+version          '0.1.0'
