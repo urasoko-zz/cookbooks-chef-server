@@ -9,7 +9,7 @@ package_local_path = "#{Chef::Config[:file_cache_path]}/#{package_name}"
 
 remote_file package_local_path do
   source package_url
-  checksum 'cb726462fc991fe2ee044b3f58bad24de3e5d210a1705985e85e9a591d68c6f6'
+  checksum node['chef-server']['checksum']
 end
 
 rpm_package package_name do
